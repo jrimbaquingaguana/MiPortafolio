@@ -1,4 +1,4 @@
-# Jose Imbaquinga Personal Portfolio
+# Jose Imbaquinga Mi Portfolio Personal
 
 This is my personal portfolio, a web application that showcases my professional experience, education, skills, and projects.
 
