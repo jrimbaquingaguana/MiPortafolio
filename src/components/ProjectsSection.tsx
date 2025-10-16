@@ -61,6 +61,7 @@ export default function ProjectsSection() {
                     View on GitHub 🔗
                   </motion.a>
                 </CardFooter>
+                
               </GlassCard>
             </MotionWrapper>
           ))}

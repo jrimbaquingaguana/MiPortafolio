@@ -102,77 +102,104 @@ export const skills = {
 
 };
 
-
 export const projects = [
-{
-  title: "ExplorAR – Haz de cada paso una historia para recordar",
-  github: "https://github.com/jrimbaquingaguana/Interculturalidad_ExploAR",
+  {
+    title: "ExplorAR – Haz de cada paso una historia para recordar",
+    github: "https://github.com/jrimbaquingaguana/Interculturalidad_ExploAR",
+    description: [
+      "Aplicación móvil para la exploración turística en Ecuador, resaltando la interculturalidad entre pueblos y culturas.",
+      "Integración de Realidad Aumentada (AR) y Realidad Virtual (VR) para visualizar puntos turísticos de forma inmersiva.",
+      "Incluye itinerarios personalizados, álbum de recuerdos y selección interactiva de lugares turísticos.",
+      "Multilenguaje (Español, Inglés, Francés, Portugués) para mayor alcance cultural.",
+      "Desarrollada con Flutter y Firebase, con integración de APIs de Google Maps y Traductor.",
+      "Ofrece orientación en tiempo real y experiencias accesibles e inclusivas para viajeros."
+    ],
+  },
+  {
+    title: "EurekaBank – Tu Banca Digital de Confianza",
+    github: "https://github.com/jrimbaquingaguana/Proyecto_Construccion",
+    description: [
+      "Aplicación bancaria distribuida basada en microservicios con Spring Boot y Eureka.",
+      "Microservicios para depósitos, retiros, transferencias, consultas y movimientos de clientes.",
+      "Diseño multiplataforma con clientes móvil (Kotlin), web, consola y escritorio en Java.",
+      "Contenedorización de servicios mediante Docker y Docker Compose.",
+      "Integración con Jenkins para CI/CD y despliegue automatizado en entornos controlados."
+    ],
+  },
+  {
+    title: "Página Web para consumo de modelo de Inteligencia Artificial",
+    github: "https://github.com/jrimbaquingaguana/Front_tesis",
+    description: [
+      "Frontend desarrollado con React y Vite para interactuar con un modelo de IA.",
+      "Autenticación segura con límite de intentos fallidos para reforzar la seguridad.",
+      "Gestión de usuarios, roles y permisos con control de acceso basado en roles.",
+      "Historial de uso con visualización de registros y resultados de predicciones.",
+      "Dashboard administrativo con métricas y logs en tiempo real."
+    ],
+  },
+  {
+    title: "API Backend para detección de Ciberacoso con Inteligencia Artificial",
+    github: "https://github.com/jrimbaquingaguana/Back_tesis",
+    description: [
+      "API REST desarrollada con Flask para detección de ciberacoso y análisis de mensajes.",
+      "Modelo IA basado en LightGBM + BERT para clasificar mensajes en Normal, Cibersexting o CiberGrooming.",
+      "Preprocesamiento y limpieza de texto con NLTK y Unidecode.",
+      "Gestión de usuarios con autenticación segura (bcrypt) y control de roles.",
+      "Auditoría completa de acciones y persistencia en MongoDB.",
+      "Contenedorización con Docker y orquestación con Docker Compose."
+    ],
+  },
+  {
+    title: "Sistema Backend de Gestión de Sensores con Autenticación y Notificaciones",
+    github: "https://github.com/jrimbaquingaguana/Prueba_Tecnica_Back_Sensor",
+    description: [
+      "Backend modular desarrollado con NestJS para gestión y monitoreo de sensores IoT.",
+      "Autenticación segura con JWT, recuperación de contraseñas y envío de correos vía Mailtrap.",
+      "Módulo de sensores para tipos de temperatura, humedad y combinados.",
+      "Validación de datos con class-validator y arquitectura basada en módulos independientes.",
+      "Comunicación en tiempo real mediante WebSockets para transmisión de lecturas y eventos.",
+      "Tecnologías principales: NestJS, TypeScript, Node.js, Mailtrap."
+    ],
+  },
+  {
+    title: "Sistema Frontend en React para Monitoreo en Tiempo Real de Sensores",
+    github: "https://github.com/jrimbaquingaguana/Prueba_Tecnica_FullStack/tree/main/sensor-front",
+    description: [
+      "Interfaz desarrollada con React y Vite para visualización y control de sensores IoT.",
+      "Integración con backend NestJS mediante API REST y WebSockets (Socket.IO) para datos en tiempo real.",
+      "Gráficos y métricas interactivas con Recharts y react-circular-progressbar.",
+      "Gestión global del estado con Redux Toolkit (autenticación, sensores, tema visual).",
+      "Generación de reportes PDF personalizados con jsPDF y html2canvas.",
+      "Soporte para modo claro/oscuro y arquitectura basada en componentes reutilizables."
+    ],
+  },
+  {
+    title: "Examen 3er Parcial – Aplicaciones Basadas en el Conocimiento",
+    github: "https://github.com/jrimbaquingaguana/ExamenBasadas_3Parcial",
+    description: [
+      "Proyecto de detección de objetos utilizando Python y Deep Learning.",
+      "Uso de Arucos para delimitar áreas y activar alertas al detectar intrusiones.",
+      "Implementación de visión artificial con OpenCV 4.5.5 y TensorFlow 2.17.0.",
+      "Aplicación práctica de IA para monitoreo de zonas mediante análisis visual automatizado."
+    ],
+  },
+  {
+  title: "Comando de Control – Sistema Full Stack de Monitoreo y Automatización",
+  github: "https://github.com/jrimbaquingaguana/PracticasWeb/tree/main",
   description: [
-    "Desarrolle una aplicación móvil para la exploración turística en Ecuador, destacando la interculturalidad entre pueblos y culturas.",
-    "Implementación de visualización de puntos turísticos mediante Realidad Aumentada (AR) y Realidad Virtual (VR) para una experiencia inmersiva.",
-    "Funcionalidades principales: itinerario personalizado, álbum de recuerdos por lugar visitado y selección de lugares turísticos.",
-    "Multilenguaje personalizado (Español, Inglés, Francés, Portugués) para adaptarse a los usuarios de diferentes culturas.",
-    "Construida con Flutter, utilizando Firebase para backend y almacenamiento, e integración de APIs de mapas (Google Maps / Google Traductor).",
-    "Incluye funcionalidades de orientación en tiempo real, planificación de viajes y experiencia interactiva, con enfoque multicultural y accesible."
+    "Sistema Full Stack para monitoreo y control de redes con backend en Node.js y frontend en React.",
+    "Backend desarrollado con Express y WebSockets para comunicación en tiempo real.",
+    "Gestión de usuarios con registro, login y seguridad mediante bcrypt.",
+    "Generación automática de scripts PowerShell y descarga directa desde el frontend.",
+    "Monitoreo de estado de redes con ejecución de procesos en segundo plano (ncat) y visualización en tiempo real.",
+    "Frontend en React con dashboard interactivo, tabla de redes, botones de acción y modo oscuro/neón.",
+    "Integración completa entre frontend y backend, con rutas privadas y control de autenticación.",
+    "Uso de Axios para consumo de API, manejo de estados con useState y efectos con useEffect."
   ],
 }
-,
-{
-  title: "EurekaBank - Tu Banca Digital de Confianza",
-  github: "https://github.com/jrimbaquingaguana/Proyecto_Construccion",
-  description: [
-    "Desarrollo de una aplicación bancaria distribuida basada en microservicios, utilizando Spring Boot para los servicios y Eureka para el registro de servicios.",
-    "Implementación de múltiples microservicios, incluyendo funcionalidades de banca como depósitos, retiros, transferencias, consulta de movimientos y saldos de clientes.",
-    "Diseño de 4 clientes distintos: móvil (Kotlin), web (Java), consola (Java) y escritorio (Java), asegurando compatibilidad y accesibilidad para los usuarios.",
-    "Configuración de Dockerfiles y Docker Compose para contenedorización de los microservicios, facilitando despliegue y pruebas locales.",
-    "Integración con Jenkins para automatización del despliegue continuo (CI/CD) de la aplicación en entornos controlados."
-  ],
-}
-,
-{
-  title: "Examen 3er Parcial – Aplicaciones Basadas en el Conocimiento",
-  github: "https://github.com/jrimbaquingaguana/ExamenBasadas_3Parcial",
-  description: [
-    "Desarrollado utilizando Python y técnicas de Deep Learning.",
-    "Implementación de detección de objetos mediante Arucos, colocando 4 ejes en el suelo, cada Aruco representando una esquina.",
-    "Cuando un objeto cruzaba la zona delimitada por los Arucos, se activaba una alerta automática.",
-    "Tecnologías utilizadas: OpenCV 4.5.5 y TensorFlow 2.17.0 para procesamiento de imágenes y aprendizaje profundo."
-  ],
-},
-
-{
-  title: "Página Web para consumir modelo de Inteligencia Artificial",
-  github: "https://github.com/jrimbaquingaguana/Front_tesis",
-  description: [
-    "Aplicación web desarrollada con React y Vite como frontend para la interacción con un modelo de inteligencia artificial.",
-    "Incluye login y registro con validaciones en el cliente: límite de 3 intentos fallidos para reforzar la seguridad y prevenir ataques de fuerza bruta.",
-    "Visualización de usuarios y roles con control de accesos basado en permisos (role-based access control).",
-    "Módulo de historial que permite consultar y visualizar registros de uso del sistema.",
-    "Dashboard administrativo con métricas clave y visualización de logs para monitoreo en tiempo real.",
-    "Interfaz optimizada para enviar datos al backend y mostrar predicciones/resultados del modelo de IA de manera intuitiva.",
-  ],
-  
-},
-
-{
-  title: "API Backend para detección de Ciberacoso con IA",
-  github: "https://github.com/jrimbaquingaguana/Back_tesis",
-  description: [
-    "Desarrollado con Flask como framework principal para la creación de una API REST que conecta con el frontend.",
-    "Integración de un modelo de Machine Learning (LightGBM + BERT) para la clasificación de mensajes en categorías como Normal, Cibersexting y CiberGrooming.",
-    "Procesamiento y limpieza de texto con NLTK y Unidecode para mejorar la precisión de las predicciones.",
-    "Gestión de usuarios con registro, login seguro (bcrypt), actualización y eliminación de cuentas.",
-    "Control de roles y autenticación con auditoría de acciones (creación, login, edición, eliminación).",
-    "Módulo de historial de mensajes con endpoints para consultar, actualizar y eliminar registros de predicciones.",
-    "Sistema de auditoría que almacena cada acción realizada en la aplicación para trazabilidad y seguridad.",
-    "Persistencia de datos en MongoDB para usuarios, historiales y auditoría.",
-    "Contenedorización con Docker y orquestación mediante Docker Compose para facilitar despliegue y pruebas.",
-    "Tecnologías principales: Flask, Python, MongoDB, LightGBM, BERT, NLTK, bcrypt y Docker."
-  ],
-}
-
 
 ];
+
 
 export const learning = [
   {
