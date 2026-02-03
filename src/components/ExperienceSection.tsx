@@ -34,8 +34,7 @@ export default function ExperienceSection() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Estoy recién graduado, ¡Viva! 🎓 <br />
-          Así que busco mi primer trabajo formal como desarrollador.
+
         </motion.p>
 
         <div className="mb-8">

@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Jose Imbaquinga",
-  location: "Quito, Ecuador",
+  location: "Ondara, Alicante",
   email: "ricardoimbaquinga@gmail.com",
   github: "https://github.com/jrimbaquingaguana",
   linkedin: "https://www.linkedin.com/in/jose-imbaquinga-702851285",
@@ -10,13 +10,17 @@ heroDescription: "💡 Busco desempeñar un papel significativo en la creación 
 };
 
 export const workExperience = [
-  {
-    company: "Freelance | Varios",
-    
+    {
+    company: "FLOYDU S.A.S.",
     location: "Remoto",
-    period: "2025 - Present" ,
+    period: "Octubre 2025 - Presente",
     achievements: [
-      "Construcción de aplicaciones web y móviles utilizando tecnologías como React, Angular y Flutter.",
+      "Formo parte del equipo de desarrollo de un SaaS en producción, contribuyendo al mantenimiento, evolución y optimización de la plataforma con enfoque en performance, seguridad y calidad.",
+      "Desarrollé y mejoré funcionalidades de backend en PHP (Symfony/Laravel), incluyendo APIs REST, autenticación y aplicación de buenas prácticas de seguridad.",
+      "Implementé y optimicé componentes de frontend en React, manejando estado con Redux/Zustand e integrando librerías UI como MUI/AntD.",
+      "Administré bases de datos MySQL y apoyé la operación de Elasticsearch para búsquedas más eficientes y consistentes.",
+      "Utilicé Docker, Git/GitHub y flujos CI/CD para despliegues, monitoreo y control de versiones.",
+      "Tuve exposición a entornos con PostgreSQL y desarrollo con Python como tecnologías complementarias dentro del ecosistema del proyecto.",
     ],
   },
 {
@@ -203,27 +207,28 @@ export const projects = [
 
 export const learning = [
   {
-    title: "GraphQL",
+    title: "Network Defense - Cisco",
     description:
-      "Aprendiendo los fundamentos de GraphQL para crear APIs más flexibles y eficientes. Explorando consultas, mutaciones, suscripciones y la integración con React.",
-    tags: ["GraphQL", "API", "React", "Fullstack"],
-    date: "Julio 2025",
-    image: "/experiencia/graphql.png",
+      "Certificación enfocada en fundamentos de defensa de red, detección de amenazas y buenas prácticas para fortalecer la seguridad, mitigando riesgos y mejorando la postura de protección en entornos corporativos.",
+    tags: ["Cisco", "Network Security", "Defense", "Cybersecurity"],
+    date: "Diciembre 2024",
+    image: "/experiencia/cisco_defense.png",
   },
   {
-    title: "Kubernetes",
+    title: "AWS Certified AI Practitioner",
     description:
-      "Explorando Kubernetes para la orquestación de contenedores y la gestión de aplicaciones escalables, aprovechando conocimientos previos de Docker.",
-    tags: ["Kubernetes", "Containers", "DevOps"],
-    date: "Agosto 2025",
-    image: "/experiencia/kubernets.png",
+      "Certificación orientada a conceptos fundamentales de IA/ML en AWS y su aplicación práctica. Incluye bases de IA generativa, casos de uso, servicios en la nube y buenas prácticas para integrar soluciones de IA.",
+    tags: ["AWS", "AI", "Machine Learning", "Generative AI", "Cloud"],
+    date: "27 Octubre 2025",
+    image: "/experiencia/aws_ia.webp",
   },
   {
-    title: "Apache Kafka",
+    title: "AWS Certified Cloud Practitioner",
     description:
-      "Aprendiendo a usar Apache Kafka para la transmisión de datos en tiempo real, integración con sistemas distribuidos y manejo de flujos de eventos en aplicaciones modernas.",
-    tags: ["Kafka", "Streaming", "Event-Driven", "Data Pipelines"],
-    date: "Septiembre 2025",
-    image: "/experiencia/kafka.svg",
+      "Certificación de fundamentos de computación en la nube con AWS: servicios principales, conceptos de seguridad (IAM), arquitectura básica, facturación y buenas prácticas para operar soluciones en la nube.",
+    tags: ["AWS", "Cloud", "Fundamentals", "IAM", "EC2", "S3", "RDS"],
+    date: "04 Diciembre 2025",
+    image: "/experiencia/aws_cloud.webp",
   },
 ];
+
