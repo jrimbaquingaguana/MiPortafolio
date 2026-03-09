@@ -1,10 +1,10 @@
 export const personalInfo = {
   name: "Jose Imbaquinga",
-  location: "Ondara, Alicante",
+  location: "Toledo, Castilla-La Mancha",
   email: "ricardoimbaquinga@gmail.com",
   github: "https://github.com/jrimbaquingaguana",
   linkedin: "https://www.linkedin.com/in/jose-imbaquinga-702851285",
-  profilePicture: "/profile.jpg",
+  profilePicture: "/profile.jpg", 
 heroDescription: "💡 Busco desempeñar un papel significativo en la creación de soluciones tecnológicas innovadoras y eficientes. Busco integrarme en un entorno colaborativo y dinámico que me permita seguir aprendiendo, perfeccionar mis habilidades y participar en proyectos desafiantes que impulsen mi desarrollo profesional y generen resultados excepcionales. Me motiva aportar ideas creativas, optimizar procesos y contribuir al éxito de proyectos que tengan un impacto tangible en el mundo digital.",
 
 };
