@@ -10,10 +10,10 @@ heroDescription: "💡 Busco desempeñar un papel significativo en la creación 
 };
 
 export const workExperience = [
-    {
+  {
     company: "FLOYDU S.A.S.",
     location: "Remoto",
-    period: "Octubre 2025 - Presente",
+    period: "Octubre 2025 - Marzo 2026",
     achievements: [
       "Formo parte del equipo de desarrollo de un SaaS en producción, contribuyendo al mantenimiento, evolución y optimización de la plataforma con enfoque en performance, seguridad y calidad.",
       "Desarrollé y mejoré funcionalidades de backend en PHP (Symfony/Laravel), incluyendo APIs REST, autenticación y aplicación de buenas prácticas de seguridad.",
@@ -23,18 +23,19 @@ export const workExperience = [
       "Tuve exposición a entornos con PostgreSQL y desarrollo con Python como tecnologías complementarias dentro del ecosistema del proyecto.",
     ],
   },
-{
-  company: "Cociber",
-  location: "Quito, Ecuador",
-  period: "Mayo 2024 - Marzo 2025",
-  achievements: [
-    "Diseñé y desarrollé aplicaciones full-stack, incluyendo interfaces de usuario y lógica del servidor.",
-    "Implementé buenas prácticas de programación, pruebas y mantenimiento de código, mejorando la calidad del software.",
-    "Desarrollé un sistema web para detectar ataques por malware, contribuyendo a la seguridad de la plataforma.",
-    "Colaboré en un equipo ágil, participando en planificación de sprints y revisiones de código.",
-  ],
-},
-
+  {
+    company: "Cociber",
+    location: "Quito, Ecuador",
+    period: "Mayo 2024 - Marzo 2025",
+    achievements: [
+      "Diseñé y desarrollé aplicaciones full-stack, abarcando interfaces de usuario, lógica del servidor e integración entre componentes frontend y backend.",
+      "Implementé buenas prácticas de programación, mantenimiento y mejora continua del código, contribuyendo a la calidad y estabilidad de las soluciones desarrolladas.",
+      "Desarrollé un sistema web orientado a la detección de ataques por malware, fortaleciendo la seguridad y el análisis dentro de la plataforma.",
+      "Participé en despliegues y configuración de entornos de desarrollo y prueba, apoyándome en herramientas de control de versiones y flujos colaborativos.",
+      "Colaboré en un equipo ágil, participando en planificación de sprints, revisiones de código y seguimiento de tareas para asegurar entregas eficientes.",
+      "Tuve contacto con procesos de integración, pruebas y puesta en marcha de funcionalidades, aportando a la implementación técnica de los proyectos.",
+    ],
+  },
 ];
 
 export const education = [
